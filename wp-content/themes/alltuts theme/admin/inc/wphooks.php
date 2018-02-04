@@ -25,7 +25,8 @@ function site5framework_header_init() {
 	wp_register_script('ddsmoothmenu', get_template_directory_uri().'/js/ddsmoothmenu.js');
 	wp_enqueue_script( 'ddsmoothmenu' );
     wp_enqueue_style('ddsmoothmenu', get_template_directory_uri().'/css/ddsmoothmenu.css');
-    
+    wp_enqueue_style('responsive', get_template_directory_uri().'/css/responsive.css');
+
     wp_enqueue_style('normalize', get_template_directory_uri().'/css/normalize.css');
 	wp_enqueue_style('boxes', get_template_directory_uri().'/lib/shortcodes/css/boxes.css');
 	wp_enqueue_style('lists', get_template_directory_uri().'/lib/shortcodes/css/lists.css');

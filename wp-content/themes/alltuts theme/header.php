@@ -15,8 +15,7 @@
     <title><?php wp_title( '|', true, 'right' ); ?> <?php bloginfo('name'); ?></title>
 
     <!-- meta -->
-    <meta name ="viewport" content="width = 1020" />
-    <meta name="generator" content="www.site5.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php if ( of_get_option('alltuts_enablemeta')== '1') { ?>
     <meta name="description" content="<?php echo of_get_option('alltuts_metadescription')  ?>" />
     <meta name="keywords" content="<?php wp_title(); ?>, <?php echo of_get_option('alltuts_metakeywords')  ?>" />
@@ -32,7 +31,9 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-    
+
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
     <?php wp_head(); ?>
     
     <?php if(of_get_option('alltuts_css_code') != '') { ?>   

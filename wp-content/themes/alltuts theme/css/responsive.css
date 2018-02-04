@@ -1,0 +1,147 @@
+@import url("font-awesome/css/fontawesome-all.min.css");
+#wrapper{
+    width: 100%;
+    max-width: 960px;
+}
+section {
+    width: 100%;
+    max-width: 660px;
+}
+#copyright {
+    width: 100%;
+    max-width: 960px;
+    min-width: auto;
+}
+#copyrightInner {
+    width: 100%;
+}
+@media only screen and (max-width: 732px) {
+    section {
+        width: 100%;
+        max-width: 732px;
+        margin-right: 0;
+        display: inline-block !important;
+    }
+    section article {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    article .textPreview {
+        width: 55%;
+    }
+
+    aside {
+        display: inline-block !important;
+        width: 100%;
+        max-width: 660px;
+        box-sizing: border-box;
+        float: none;
+        margin: auto;
+    }
+
+    form#searchform {
+        margin: 15px 40px;
+        text-align: center;
+    }
+
+    .rightBox.rightBoxMidSearch{
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    #searchform input {
+        width: 83%;
+    }
+    .rightBox {
+
+        margin: 20px auto;
+    }
+    #socialLinks {
+        right: 10px;
+        top: 138px;
+        padding-left: 155px;
+
+
+    }
+
+    #logo img {
+        width: 100%;
+    }
+    #copyrightInner {
+        padding: 20px 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    #site5bottom{
+        position: initial;
+    }
+    article .postCredentials {
+        width: 100%;
+    }
+    #commentform textarea {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #logo {
+        width: 90%;
+        margin-left: 15px;
+    }
+    article .postThumb {
+        float: none;
+        margin: auto;
+    }
+    article .textPreview {
+        width: 100%;
+    }
+    article footer .metaRight{
+        float: none;
+        margin-top: 10px;
+    }
+    article footer .metaRight img{
+        margin-left: 0;
+    }
+    article footer .metaRight a{
+        margin-top: 10px;
+    }
+    article footer a {
+        display: block;
+        width: 100%;
+        float: none!important;
+    }
+
+    #topMenu {
+        width: 90%;
+        z-index: 10000;
+    }
+
+
+    #topMenu .menu-item {
+        display: none!important;
+        width: 100%;
+        background: #24292d;
+        border-top: 1px solid #515050;
+        border-bottom: 1px solid #2a2828;
+    }
+    #topMenu .menu-item:first-child {
+        border-top: none;
+    }
+    #topMenu .menu-item:last-child {
+        border-bottom: none;
+    }
+    #topMenu #menu-main::before {
+        content: "\f0c9";
+        font-family: 'Font Awesome 5 Free';
+        color: #fff;
+        padding: 10px;
+        font-size: 28px;
+        margin-left: 5px;
+        font-weight: 900;
+    }
+    #topMenu #menu-main:hover .menu-item, #topMenu #menu-main:focus .menu-item{
+        display: block !important;
+    }
+
+}
